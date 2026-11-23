@@ -1,4 +1,5 @@
 Meu Desempenho
+
 Sistema web para acompanhamento do desempenho escolar dos alunos, desenvolvido com Python, Flask, SQLite, HTML, CSS e JavaScript.
 
 1. Sobre o projeto
@@ -30,13 +31,12 @@ Funcionalidades
 - Git e GitHub: controle de versões e colaboração.
 
 3. Como baixar o projeto
+
 Para obter os arquivos do projeto, é necessário ter o Git instalado.
 
 Abra o terminal e execute:
 
 git clone https://github.com/uCezar/Meu-Desempenho.git
-
-Esse comando copia o repositório do GitHub para o computador.
 
 Depois, entre na pasta:
 
@@ -46,15 +46,13 @@ cd Meu-Desempenho
 
 O projeto utiliza bibliotecas Python que precisam ser instaladas antes da execução.
 
-Primeiro, verifique se o Python está instalado:
+Verifique se o Python está instalado:
 
 python --version
 
-Depois, instale as dependências:
+Instale as dependências:
 
 pip install -r requirements.txt
-
-Esse comando instala automaticamente as bibliotecas listadas no arquivo "requirements.txt".
 
 5. Configuração e execução
 
@@ -69,7 +67,6 @@ Abra o navegador e acesse:
 http://127.0.0.1:5000
 
 Observação: o banco de dados SQLite é criado automaticamente pela aplicação quando ela é iniciada, utilizando a configuração do projeto.
-
 
 6. Primeiro acesso
 
