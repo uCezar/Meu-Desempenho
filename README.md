@@ -22,8 +22,6 @@ Python 3.10 ou superior.
 
 ## Executar no Windows
 ```powershell
-py -m venv .venv
-.venv\Scripts\activate
 py -m pip install -r requirements.txt
 py app.py
 ```
