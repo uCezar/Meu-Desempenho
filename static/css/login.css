@@ -1,0 +1,102 @@
+/* Configurações gerais */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f3f5fa;
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Título */
+h2 {
+    color: #263653;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+/* Formulário */
+form {
+    background: #ffffff;
+    width: 90%;
+    max-width: 400px;
+
+    padding: 35px;
+    border-radius: 12px;
+
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Textos dos campos */
+label {
+    color: #344563;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+/* Campos de entrada */
+input {
+    width: 100%;
+    padding: 13px;
+    margin-top: 8px;
+
+    border: 1px solid #d5dbea;
+    border-radius: 7px;
+
+    font-size: 14px;
+    outline: none;
+
+    transition: 0.3s;
+}
+
+/* Quando o usuário clica no campo */
+input:focus {
+    border-color: #4568dc;
+    box-shadow: 0 0 0 3px rgba(69, 104, 220, 0.12);
+}
+
+/* Botão de login */
+button {
+    width: 100%;
+    padding: 13px;
+
+    background: #4568dc;
+    color: #ffffff;
+
+    border: none;
+    border-radius: 7px;
+
+    font-size: 15px;
+    font-weight: bold;
+
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3452b5;
+}
+
+/* Link de cadastro */
+a {
+    margin-top: 20px;
+
+    color: #4568dc;
+    font-size: 14px;
+    text-decoration: none;
+
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #263f99;
+    text-decoration: underline;
+}

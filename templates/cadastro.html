@@ -3,13 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/cadastro.css') }}">
     <title>Cadastro</title>
 </head>
 <body>
     <h1>Bem-vindo!</h1>
     <h2>Faça seu cadastro</h2>
     <form action="#" method="POST">
-        <label for="email">Nome:</label>
+        <label for="nome">Nome:</label>
         <br>
         <input
             type="text"
@@ -42,12 +43,12 @@
         >
         <br><br>
 
-        <label for="email">Confirmar senha:</label>
+        <label for="confirmar-senha">Confirmar senha:</label>
         <br>
         <input
             type="password"
-            id="senha"
-            name="senha"
+            id="confirmar-senha"
+            name="confirmar-senha"
             placeholder="Confirme sua senha"
             required
         >
@@ -56,6 +57,6 @@
     </form>
 
     <br><br>
-    <a href="#">Ja tem conta?</a>
+    <a href="{{ url_for('auth.login') }}">Já tem conta? Faça login</a>
 </body>
 </html>

@@ -6,3 +6,13 @@ from db import db
 
 
 auth_bp = Blueprint("auth", __name__)
+
+@auth_bp.route("/cadastro", methods=["GET", "POST"])
+def cadastro():
+    return render_template("cadastro.html")
+
+  
+
+@auth_bp.route("/login", methods=["GET", "POST"])
+def login():
+    return render_template("login.html")
