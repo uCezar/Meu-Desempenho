@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,32 +8,40 @@
     <title>Login</title>
 </head>
 <body>
-    <h2>Faça seu login</h2>
-    <form action="#" method="POST">
-        <label for="email">E-mail:</label>
-        <br>
-        <input
-            type="email"
-            id="email"
-            name="email"
-            placeholder="Digite seu e-mail"
-            required
-        >
-        <br><br>
-        <label for="senha">Senha:</label>
-        <br>
-        <input
-            type="password"
-            id="senha"
-            name="senha"
-            placeholder="Digite sua senha"
-            required
-        >
-        <br><br>
-        <button type="submit">Entrar</button>
-    </form>
-
-    <br><br>
-    <a href="{{ url_for('auth.cadastro') }}">Não tem conta? Cadastra-se!!</a>
+<section class="containerPai">
+   <div class="card">
+    <div class="esquerda">
+         <div class="formLogin">
+<h2>Fazer Login</h2>
+<form>
+    <input type="email" placeholder="E-mail">
+    <input type="password" placeholder="Senha">
+    <button type="submit">Entrar</button>
+</form>
+         </div>
+         <div class="facaLogin">
+            <h2>ja tem <br> uma conta?</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis, officiis iste ab odit iure itaque ea nisi. Consequuntur debitis nobis exercitationem, suscipit aspernatur, autem amet ullam minima, recusandae dolor corporis!</p>
+            <button>Faça Login</button>
+         </div>
+    </div>
+    <div class="direita">
+        <div class="formCadastro">
+            <h2>Cadastro</h2>
+            <form>
+                <input type="text" placeholder="Nome">
+                <input type="email" placeholder="E-mail">
+                <input type="password" placeholder="Senha">
+                <input type="password" placeholder="Confirme sua senha">
+                <button type="submit">Cadastrar</button>
+            </form>
+        </div>
+        <div class="facaCadastro"></div>
+        <h2>Não tem <br> uma conta?</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae tempore impedit incidunt natus hic consequatur quibusdam culpa neque omnis voluptates suscipit, error esse deleniti a perspiciatis deserunt minima accusantium? Veritatis!</p>
+        <button>Cadastre-se</button>
+    </div>
+   </div>
+</section>
 </body>
 </html>
